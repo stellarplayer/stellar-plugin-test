@@ -1,2 +1,5 @@
 # stellar-plugin-test
-a simple plugin demonstration 
+
+恒星播放器 插件示例
+
+a simple demo
