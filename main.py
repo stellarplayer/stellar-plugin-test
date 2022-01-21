@@ -11,7 +11,9 @@ class myplugin(StellarPlayer.IStellarPlayerPlugin):
         return super().start()
         
     def show(self):
-        self.doModal('main',300, 300,'测试', [])
+        self.doModal('main',300, 300,'测试', [
+			{'type':'label','name':'hello', 'hAlign': 'center'}
+        ])
 
     
 def newPlugin(player:StellarPlayer.IStellarPlayer,*arg):
